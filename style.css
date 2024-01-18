@@ -13,8 +13,9 @@ h1{
 #form{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
     padding: 10px;
+    overflow: hidden;
 }
 
 label{
@@ -25,11 +26,11 @@ label{
     background-color: rgb(181, 181, 250);
     width:max-content;
     height: 30px;
-    padding: 0px 5px;
+    padding: 0px 10px;
+    margin: 1px 20px;
 }
 
-input[type="text"],[type="email"], [type="password"], 
-[type="search"], [type="tel"]  {
+input{
     width: 250px;
     height: 30px;
     margin-bottom: 10px;
