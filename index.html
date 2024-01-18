@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="login">
+        <h1>Our form</h1>
+        <form id="form">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="johnDoe@gmail.com">
+            <label for="password">Password</label>
+            <input id="password" type="password">
+            <label for="search">Search</label>
+            <input id="search" type="search" placeholder="&#128269">
+            <label for="tel">Phone Number</label>
+            <input id="tel" type="tel">
+            <label for="textarea">Text Area</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="20"> This is a text area</textarea>
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date">
+            <label>Color</label>
+            <input id="Color" name="Color" type="color">
+            <label for="file">File</label>
+            <input id="file" name="file" type="file">
+            <label for="checkbox">Checkbox</label>
+            <input id="Checkbox" name="Checkbox" type="checkbox">
+            <label for="selectlist">Choose one</label>
+            <select id="selectlist" name="selectlist">
+                <option> </option>
+                <option>first option</option>
+                <option>Second choice</option>
+                <option>Third item</option>
+            </select>
+
+            <fieldset>
+                <legend>Checkboxes in a fielset</legend>
+                <input id="thischeck" name="checkbox" type="checkbox" checked>
+                <label>This</label><br>
+                <input id="thischeck" name="checkbox" type="checkbox">
+                <label>And Or</label><br>
+                <input id="thischeck" name="checkbox" type="checkbox">
+                <label>That</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Genderselection in a fielset</legend>
+                <input id="malecheck" name="checkbox" type="checkbox" checked>
+                <label>Male</label><br>
+                <input id="thischeck" name="checkbox" type="checkbox">
+                <label>Female</label><br>
+                <input id="thischeck" name="checkbox" type="checkbox">
+                <label>Other</label>
+            </fieldset>
+
+            <input type="submit" name="submit" value="SUBMIT">
+        </form>
+    </div>
+</body>
+
+</html>
