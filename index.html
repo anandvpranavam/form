@@ -12,55 +12,155 @@
     <div class="login">
         <h1>Our form</h1>
         <form id="form">
-            <label for="name">Name</label>
-            <input id="name" type="text">
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="johnDoe@gmail.com">
-            <label for="password">Password</label>
-            <input id="password" type="password">
-            <label for="search">Search</label>
-            <input id="search" type="search" placeholder="&#128269">
-            <label for="tel">Phone Number</label>
-            <input id="tel" type="tel">
-            <label for="textarea">Text Area</label>
-            <textarea id="textarea" name="textarea" rows="4" cols="20"> This is a text area</textarea>
-            <label for="date">Date</label>
-            <input id="date" name="date" type="date">
-            <label>Color</label>
-            <input id="Color" name="Color" type="color">
-            <label for="file">File</label>
-            <input id="file" name="file" type="file">
-            <label for="checkbox">Checkbox</label>
-            <input id="Checkbox" name="Checkbox" type="checkbox">
-            <label for="selectlist">Choose one</label>
-            <select id="selectlist" name="selectlist">
-                <option> </option>
-                <option>first option</option>
-                <option>Second choice</option>
-                <option>Third item</option>
-            </select>
+            <div class="row">
+                <div class="labels">
+                    <label for="name">Name</label>
+                </div>
+                <div class="inputs">
+                    <input id="name" type="text" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="labels">
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputs">
+                    <input id="email" type="email" placeholder="johnDoe@gmail.com" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="labels">
+                    <label for="password">Password</label>
+                </div>
+                <div class="inputs">
+                    <input id="password" type="password" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="labels">
+                    <label for="search">Search</label>
+                </div>
+                <div class="inputs">
+                    <input id="search" type="search" placeholder="&#128269">
+                </div>
+            </div>
 
-            <fieldset>
-                <legend>Checkboxes in a fielset</legend>
-                <input id="thischeck" name="checkbox" type="checkbox" checked>
-                <label>This</label><br>
-                <input id="thischeck" name="checkbox" type="checkbox">
-                <label>And Or</label><br>
-                <input id="thischeck" name="checkbox" type="checkbox">
-                <label>That</label>
-            </fieldset>
+            <div class="row">
+                <div class="labels">
+                    <label for="tel">Phone Number</label>
+                </div>
+                <div class="inputs">
+                    <input id="tel" type="tel" placeholder="(123)-456-7890" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="labels">
+                    <label for="textarea">Text Area</label>
+                </div>
+                <div class="inputs">
+                    <textarea id="textarea" name="textarea" rows="4" cols="20"> This is a text area</textarea>
+                </div>
+            </div>
 
-            <fieldset>
-                <legend>Genderselection in a fielset</legend>
-                <input id="malecheck" name="checkbox" type="checkbox" checked>
-                <label>Male</label><br>
-                <input id="thischeck" name="checkbox" type="checkbox">
-                <label>Female</label><br>
-                <input id="thischeck" name="checkbox" type="checkbox">
-                <label>Other</label>
-            </fieldset>
+            <div class="row">
+                <div class="labels">
+                    <label for="date">Date</label>
+                </div>
+                <div class="inputs">
+                    <input id="date" name="date" type="date">
+                </div>
+            </div>
+               
+            <div class="row">
+                <div class="labels">
+                    <label for="file">File</label>
+                </div>
+                <div class="inputs">
+                    <input id="file" name="file" type="file">
+                </div>
+            </div>
+            <div class="row">
+                <div class="labels">
+                    <label>Color</label>
+                </div>
+                <div class="inputs">
+                    <input id="Color" name="Color" type="color">
+                </div>
+            </div>
+            <div class="row">
+                <div class="labels">
+                    <label for="checkbox">Checkbox</label>
+                </div>
+                <div class="inputs">
+                    <input id="Checkbox" name="Checkbox" type="checkbox">
+                </div>
+            </div>
+            <div class="row">
+                <div class="labels">
+                    <label for="selectlist">Choose one</label>
+                </div>
+                <div class="inputs">
+                    <select id="selectlist" name="selectlist">
+                        <option> </option>
+                        <option>first option</option>
+                        <option>Second choice</option>
+                        <option>Third item</option>
+                    </select>
+                </div>
+            </div>
 
-            <input type="submit" name="submit" value="SUBMIT">
+            <div class="row">
+                <div class="labels">
+                    
+                </div>
+                <div class="inputs">
+                    <fieldset>
+                        <legend>Checkboxes in a fielset</legend>
+                        <input id="thischeck" name="checkbox" type="checkbox" checked>
+                        <label>This</label><br>
+                        <input id="thischeck" name="checkbox" type="checkbox">
+                        <label>And Or</label><br>
+                        <input id="thischeck" name="checkbox" type="checkbox">
+                        <label>That</label>
+                    </fieldset>
+                </div>
+            </div>
+
+      
+            <div class="row">
+                <div class="labels">
+                    
+                </div>
+                <div class="inputs">
+                    <fieldset>
+                        <legend>Genderselection in a fielset</legend>
+                        <input id="malecheck" name="checkbox" type="checkbox" checked>
+                        <label>Male</label><br>
+                        <input id="thischeck" name="checkbox" type="checkbox">
+                        <label>Female</label><br>
+                        <input id="thischeck" name="checkbox" type="checkbox">
+                        <label>Other</label>
+                    </fieldset>
+                </div>
+            </div>
+            <div id="actions">
+                <input id="submit" type="submit" name="submit" value="SUBMIT">
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+           
         </form>
     </div>
 </body>
