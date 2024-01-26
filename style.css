@@ -46,7 +46,7 @@ h1{
     justify-content: center;
     line-height: 20px;
     margin: 2px auto 10px;
-    outline: 1px solid;
+    /* outline: 1px solid; */
     padding: 5px;
 }
 .labels{
@@ -69,7 +69,7 @@ h1{
 }
 
 .row-textarea{
-    outline: 1px solid;
+    /* outline: 1px solid; */
     width: 100%;
     display:flex;
     align-items: center;
@@ -77,7 +77,7 @@ h1{
     flex-direction: row;
     line-height: 20px;
     margin: 2px auto 10px;
-    outline: 1px solid;
+    /* outline: 1px solid; */
     padding: 5px;
 
 }
@@ -95,7 +95,7 @@ h1{
     width: 100%;
     padding: 5px;
     width: 150px;
-    height: 50px;
+    height: 100px;
     border: none;
     border-radius: 8px;
 }
@@ -117,7 +117,7 @@ h1{
     height: 30px;
 }
 .row-date, .row-file, .row-select{
-    outline: 1px solid;
+    /* outline: 1px solid; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -127,7 +127,7 @@ h1{
     align-items: center;
     line-height: 20px;
     margin: 2px auto 10px;
-    outline: 1px solid;
+    /* outline: 1px solid; */
     padding: 5px;
 }
 .row-date #date{
@@ -155,14 +155,14 @@ h1{
     margin-left: -220px;
 }
 .row-color,.row-chkbox{
-    outline: 1px solid;
+    /* outline: 1px solid; */
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 2px auto 10px;
-    outline: 1px solid;
+    /* outline: 1px solid; */
     padding: 5px;
 }
 .labels #Color{
@@ -188,4 +188,5 @@ h1{
     border: none;
     background-color: rgb(139, 35, 218);
     color: white;
+    cursor: pointer;
 }
